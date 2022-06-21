@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>COALg</title>
+  </head>
+  <body>
+    <header>
+      <h1>COALg</h1>
+      <navbar>
+        <div class = "Menu">
+            <ul>
+              <ul></ul><a href="#home">Home</a></li>
+              <ul></ul><a href="#news">News</a></li>
+              <ul></ul><a href="#contact">Contact</a></li>
+              <ul></ul><a href="#about">About</a></li>
+            </ul>
+              </div>
+        </div>
+      </navbar>
+    </header>
+    <main>
+      <div id="cover">
+        <form method="get" action="">
+          <div class="tb">
+            <div class="td"><input id="search-text" type="text" placeholder="Search" required></div>
+            <div class="td" id="s-cover">
+              <button id="submit-button" type="submit">
+                <div id="s-circle"></div>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+
+        </div>
+      </div>
+      <div id="maps"></div>
+    </main>
+  </body>
+  <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCr-Av0kS8QAYgzV2dOHJXomDn8rxTcsRA&callback=initMap&v=weekly" defer></script>
+  <script src = "./assets/script.js"></script>
+</html>
